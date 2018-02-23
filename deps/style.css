@@ -1,0 +1,131 @@
+/**
+ * @file
+ * Styles for HTML documents containing only tables for Blue Accounting.
+ */
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  color: #444;
+  font-size: 1em;
+  height: 100%;
+  line-height: 1.4;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: #fff;
+  color: #444;
+  font-family: 'Monserrat', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  height: 100%;
+  line-height: 1.4;
+  margin: 0;
+}
+  @media all and (max-width: 400px) {
+    body {
+      font-size: 12px;
+    }
+  }
+
+/* Links. */
+a {
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+a:link {
+  color: #355384;
+}
+a:visited {
+  color: #483a8a;
+}
+a:hover {
+  color: #009abe;
+}
+a:active {
+  color: #009abe;
+}
+a:focus {
+  outline: 0 none;
+  -webkit-text-decoration: underline dotted;
+  -moz-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+/* Lists. */
+ul,
+ol {
+  margin: 0;
+  padding: 0 0 0 1.2em;
+}
+
+/* General tags. */
+b,
+strong {
+  font-weight: 700;
+}
+
+/* Tables. */
+table {
+  border-spacing: 0;
+  margin: 0 auto;
+  text-align: left;
+}
+
+caption {}
+
+td, th {
+  padding: 5px 10px;
+}
+[colspan] {
+  padding: 10px;
+  text-align: center;
+}
+
+thead {
+  background-color: #2b4e7c;
+  color: #fff;
+}
+thead th:not(.corner):not(:last-child) {
+  border-right: 1px solid;
+}
+
+tbody {}
+tbody th {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #eee;
+  color: #666;
+  padding: 5px 10px 20px;
+  vertical-align: top;
+}
+tbody td {
+  border-bottom: 1px solid #eee;
+  vertical-align: top;
+}
+tbody td:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
+tfoot {}
+
+/* Classes. */
+.corner {
+  background-color: #50a9d9;
+  font-size: 12px;
+}
+
+.no-border {
+  border: 0 none;
+}
+
+.thirds {}
+  .thirds thead th {
+    width: 33%;
+  }
