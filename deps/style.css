@@ -10,9 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   color: #444;
   font-size: 1em;
-  height: 100%;
   line-height: 1.4;
-  overflow-y: scroll;
   text-rendering: optimizeLegibility;
 }
 
