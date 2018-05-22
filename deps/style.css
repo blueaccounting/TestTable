@@ -123,6 +123,10 @@ tfoot {}
   border: 0 none;
 }
 
+.left-header{
+    vertical-align: middle;
+}
+
 .thirds {}
   .thirds thead th {
     width: 33%;
