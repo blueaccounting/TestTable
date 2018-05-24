@@ -75,12 +75,14 @@ table {
   border-spacing: 0;
   margin: 0 auto;
   text-align: left;
+  border: 1px solid grey;
 }
 
 caption {}
 
 td, th {
   padding: 5px 10px;
+    border: 1px solid grey;
 }
 [colspan] {
   padding: 10px;
